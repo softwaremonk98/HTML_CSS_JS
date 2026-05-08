@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'myfont';
+    src: url('/html/fonts/BastligaOne.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'myfont1';
+    src: url('/html/fonts/Mollani-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'myfont2';
+    src: url('/html/fonts/Awesome.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'myfont3';
+    src: url('/html/fonts/Amsterline.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    color: red;
+    font-family: 'myfont1';
+    font-size: 50px;
+}
+h2{
+    color: blue;
+    font-family: 'myfont',sans-serif;
+    font-size: 36px;
+}
+h3{
+    
+}
+h4{
+    color: green;
+    font-family: myfont3;
+    font-size: 50px;
+    font-weight: 5;
+}
