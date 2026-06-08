@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constructors</title>
+    <script>
+        function Employee(name, age, city){
+            this.name = name;
+            this.age = age;
+            this.city = city;
+        }
+        var emp1 = new Employee("Ravikant", 22, "Bangalore");
+        var emp2 = new Employee("Satyarth", 22, "Bangalore");
+        document.write("Employee 1 : "+ emp1.name + ", " + emp1.age + ", " + emp1.city + "<br>");
+        document.write("Employee 2 : "+ emp2.name + ", " + emp2.age + ", " + emp2.city + "<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
