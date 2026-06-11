@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <script>
+        //accessing form elements using document.forms
+        document.forms["formDetails"];
+        document.forms["formDetails"]["name"];
+
+        //accessing form elements using document.formDetails
+        document.formDetails
+        document.formDetails.name
+    </script>
+</head>
+<body>62+
+    
+    <form name="formDetails">
+        <input type="text" name="name" placeholder="Name"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <input type="button" value="Submit" onclick="submitForm()">
+    </form>
+</body>
+</html>

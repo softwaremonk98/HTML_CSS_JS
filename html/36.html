@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Example</title>
+    <script>
+        function incrementCounter() {
+            let counterValue = document.getElementById("counterValue");
+            let currentValue = parseInt(counterValue.textContent);
+            counterValue.textContent = currentValue + 1;
+            // --------------
+            // counterValue = document.forms.counter.counterValue;
+            // currentValue = parseInt(counterValue.textContent);
+            // counterValue.textContent = currentValue + 1;
+        }
+    </script>
+</head>
+<body>
+    <h1>Document Object Example</h1>
+    <form id="counter">
+        <input type="button" value="Increment Counter" onclick="incrementCounter()">
+        <p id="counterValue">0</p>
+    </form>   
+</body>
+</html>
