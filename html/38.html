@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom validation</title>
+    <script>
+        function validateEmail() {
+            let email = document.getemail.email.value;
+            let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address!");
+                return false; // Prevent form submission
+            }
+            return true; // Allow form submission
+        }
+
+    </script>
+</head>
+<body>
+    <form method="get" name="getemail" onsubmit="return validateEmail()">
+        <input type="email" name="email" placeholder="Email"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
